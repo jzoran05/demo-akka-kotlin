@@ -1,3 +1,4 @@
 rootProject.name = 'main'
 include 'akka-sample-cluster-kubernetes-kotlin'
+include 'akka-sample-cluster-kubernetes-dns-kotlin'
 

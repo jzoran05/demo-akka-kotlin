@@ -1,3 +1,4 @@
+---
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
@@ -9,6 +10,7 @@ spec:
   selector:
     matchLabels:
       app: appka
+
   template:
     metadata:
       labels:
@@ -42,6 +44,48 @@ spec:
             fieldRef:
               fieldPath: metadata.namespace
 #namespace
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    appName: "appka"
+  name: "appka-internal"
+spec:
+  ports:
+    - name: management
+      port: 8558
+      protocol: TCP
+      targetPort: 8558
+    - name: remoting
+      port: 2552
+      protocol: TCP
+      targetPort: 2552
+  selector:
+    appName: "appka"
+#  clusterIP: None
+#headless
+
+---
+#headless
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    appName: "appka"
+  name: "appka"
+spec:
+  ports:
+    - name: http
+      port: 8081
+      protocol: TCP
+      targetPort: 8080
+  selector:
+    appName: "appka"
+  type: LoadBalancer
+
+
 
 ---
 kind: Role
