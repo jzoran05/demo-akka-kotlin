@@ -4,7 +4,7 @@ kind: Deployment
 metadata:
   labels:
     app: appka
-  name: appka
+  name: "akka-sample-cluster-kubernetes-api"
 spec:
   replicas: 2
   selector:
