@@ -4,8 +4,8 @@ plugins {
     id 'com.bmuschko.docker-java-application' version '4.8.0'
 }
 
-group 'demo.akka'
-version '1.0-SNAPSHOT'
+//group 'demo.akka'
+//version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
