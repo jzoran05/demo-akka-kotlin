@@ -12,8 +12,8 @@ import akka.cluster.ClusterEvent
 import akka.http.javadsl.ConnectHttp
 import akka.http.javadsl.Http
 import akka.http.javadsl.server.AllDirectives
-import akka.management.AkkaManagement
 import akka.management.cluster.bootstrap.ClusterBootstrap
+import akka.management.javadsl.AkkaManagement
 import akka.stream.ActorMaterializer
 
 class ClusterApp internal constructor() : AllDirectives() {
