@@ -83,6 +83,10 @@ spec:
     port: 8080
     protocol: TCP
     targetPort: 8080
+  - name: management
+    port: 8558
+    protocol: TCP
+    targetPort: 8558
   selector:
     appName: "akka-sample-cluster-kubernetes-dns-java"
   type: LoadBalancer
