@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":akka-samples-cluster-kotlin" external.linked.project.path="$MODULE_DIR$/../../../akka-samples-cluster-kotlin" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="demo.akka" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="ExternalSystem" externalSystem="GRADLE" externalSystemModuleGroup="demo.akka" externalSystemModuleVersion="1.0-SNAPSHOT" linkedProjectId=":akka-samples-cluster-kotlin" linkedProjectPath="$MODULE_DIR$/../../../akka-samples-cluster-kotlin" rootProjectPath="$MODULE_DIR$/../../.." />
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../akka-samples-cluster-kotlin">
+      <excludeFolder url="file://$MODULE_DIR$/../../../akka-samples-cluster-kotlin/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../akka-samples-cluster-kotlin/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

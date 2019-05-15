@@ -10,15 +10,18 @@ repositories {
     mavenCentral()
 }
 
+def jupiterVersion = '5.4.2'
+def akkaVersion = '2.5.22'
+
 dependencies {
-    compile group: 'com.typesafe.akka', name: 'akka-actor_2.12', version: '2.5.22'
-    compile group: 'com.typesafe.akka', name: 'akka-testkit_2.12', version: '2.5.22'
-    compile group: 'com.typesafe.akka', name: 'akka-cluster_2.12', version: '2.5.22'
-    compile group: 'com.typesafe.akka', name: 'akka-cluster-metrics_2.12', version: '2.5.22'
+    compile group: 'com.typesafe.akka', name: 'akka-actor_2.12', version: akkaVersion
+    compile group: 'com.typesafe.akka', name: 'akka-testkit_2.12', version: akkaVersion
+    compile group: 'com.typesafe.akka', name: 'akka-cluster_2.12', version: akkaVersion
+    compile group: 'com.typesafe.akka', name: 'akka-cluster-metrics_2.12', version: akkaVersion
     testCompile group: 'org.assertj', name: 'assertj-core', version: '3.11.1'
-    testCompile "org.junit.jupiter:junit-jupiter-api:5.2.0"
-    testCompile "org.junit.jupiter:junit-jupiter-params:5.2.0"
-    testRuntime "org.junit.jupiter:junit-jupiter-engine:5.2.0"
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: jupiterVersion
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-params', version: jupiterVersion
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: jupiterVersion
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
 }
 

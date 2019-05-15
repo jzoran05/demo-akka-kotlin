@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="akka-sample-cluster-kubernetes-dns-kotlin.main.akka-sample-cluster-kubernetes-dns-kotlin.main" target="1.8" />
+      <module name="akka-sample-cluster-kubernetes-dns-kotlin.main.akka-sample-cluster-kubernetes-dns-kotlin.test" target="1.8" />
+      <module name="demo.akka.kotlin.main.akka-kotlin-sample.main" target="1.8" />
+      <module name="demo.akka.kotlin.main.akka-kotlin-sample.test" target="1.8" />
+      <module name="demo.akka.kotlin.main.akka-sample-cluster-kubernetes-kotlin.main" target="1.8" />
+      <module name="demo.akka.kotlin.main.akka-sample-cluster-kubernetes-kotlin.test" target="1.8" />
+      <module name="demo.akka.main.akka-samples-cluster-kotlin.main" target="1.8" />
+      <module name="demo.akka.main.akka-samples-cluster-kotlin.test" target="1.8" />
+      <module name="main.akka-kotlin-sample.main" target="1.8" />
+      <module name="main.akka-kotlin-sample.test" target="1.8" />
+      <module name="main.akka-sample-cluster-kubernetes-dns-kotlin.main" target="1.8" />
+      <module name="main.akka-sample-cluster-kubernetes-dns-kotlin.test" target="1.8" />
+      <module name="main.akka-sample-cluster-kubernetes-kotlin.main" target="1.8" />
+      <module name="main.akka-sample-cluster-kubernetes-kotlin.test" target="1.8" />
+      <module name="main.akka-samples-cluster-kotlin.main" target="1.8" />
+      <module name="main.akka-samples-cluster-kotlin.test" target="1.8" />
+      <module name="main.akka-streams-sample.main" target="1.8" />
+      <module name="main.akka-streams-sample.test" target="1.8" />
+      <module name="main.sample-actor.main" target="1.8" />
+      <module name="main.sample-actor.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

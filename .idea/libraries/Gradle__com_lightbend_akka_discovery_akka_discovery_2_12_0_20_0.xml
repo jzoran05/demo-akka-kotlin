@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.lightbend.akka.discovery:akka-discovery_2.12:0.20.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.lightbend.akka.discovery/akka-discovery_2.12/0.20.0/5028a8dd9186f89130b74ab0512ba80de4ff2b2c/akka-discovery_2.12-0.20.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.lightbend.akka.discovery/akka-discovery_2.12/0.20.0/8867f1813bb6f2212dd70427872c825ab3a254a1/akka-discovery_2.12-0.20.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

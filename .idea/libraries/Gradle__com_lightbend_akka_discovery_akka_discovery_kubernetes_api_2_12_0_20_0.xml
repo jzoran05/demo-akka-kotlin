@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.lightbend.akka.discovery:akka-discovery-kubernetes-api_2.12:0.20.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.lightbend.akka.discovery/akka-discovery-kubernetes-api_2.12/0.20.0/75a2d2895727d2a2f7c7df0f86951394bf375748/akka-discovery-kubernetes-api_2.12-0.20.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.lightbend.akka.discovery/akka-discovery-kubernetes-api_2.12/0.20.0/6fd019357a9479ff53ec714541eebc96751e1a1c/akka-discovery-kubernetes-api_2.12-0.20.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

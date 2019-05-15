@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":akka-sample-cluster-kubernetes-dns-kotlin:main" external.linked.project.path="$MODULE_DIR$/../../../akka-sample-cluster-kubernetes-dns-kotlin" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="main" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="ExternalSystem" linkedProjectPath="$MODULE_DIR$/../../.." rootProjectPath="$MODULE_DIR$/../../.." />
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.8" useProjectSettings="false">
+        <compilerSettings />
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../../akka-sample-cluster-kubernetes-dns-kotlin/build/classes/kotlin/main" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.lightbend.akka.management/akka-management-cluster-bootstrap_2.12/1.0.0/6dc9d761af1c125a58f24ef51c4fa957244b9bc1/akka-management-cluster-bootstrap_2.12-1.0.0.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/com.lightbend.akka.management/akka-management-cluster-http_2.12/1.0.0/62865eaefcda0b4b5fc93bdab3369307dc9304fd/akka-management-cluster-http_2.12-1.0.0.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/com.lightbend.akka.management/akka-management_2.12/1.0.0/b1f61bd3892902aa175f93442710a0c2fa362d63/akka-management_2.12-1.0.0.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-cluster-sharding_2.12/2.5.21/b0830a5ca3faab614a0744f07db600434567833b/akka-cluster-sharding_2.12-2.5.21.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-distributed-data_2.12/2.5.21/c1fc1d092b9245620e6d2d06ed55e81087af720b/akka-distributed-data_2.12-2.5.21.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-cluster-tools_2.12/2.5.21/8e9c8a981f13f452d9d6fa53560b5853ab580071/akka-cluster-tools_2.12-2.5.21.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-cluster_2.12/2.5.22/3e29b13eb875962cf1d3a4f598a91d89d1b0fca2/akka-cluster_2.12-2.5.22.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-remote_2.12/2.5.22/d0febe14d88c5d21ec36a0892162d77f133f7c23/akka-remote_2.12-2.5.22.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-discovery_2.12/2.5.21/4aa8f55fcbe2a6f6e7463051bb6452d79fac4d8b/akka-discovery_2.12-2.5.21.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-stream_2.12/2.5.22/f777557ea51f0a9344c41ab7a226f02a15b31472/akka-stream_2.12-2.5.22.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-persistence_2.12/2.5.21/8d7e70b79b4cb32003ca4ad74cb55341ce59f533/akka-persistence_2.12-2.5.21.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.12/2.5.22/31ed9683c84d7f5453005ebf708b214ab306645f/akka-actor_2.12-2.5.22.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.3.31/21edc5a6b2e39bc4dc2860346fd778e27503d6cb/kotlin-stdlib-jdk8-1.3.31.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-java8-compat_2.12/0.8.0/1e6f1e745bf6d3c34d1e2ab150653306069aaf34/scala-java8-compat_2.12-0.8.0.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-http-spray-json_2.12/10.1.7/6357bcfa7f86196c8d7a8e81babc64326ae4461a/akka-http-spray-json_2.12-10.1.7.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-http_2.12/10.1.7/1e1da334190f30dc151d4ff6b8600704debca75d/akka-http_2.12-10.1.7.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/io.spray/spray-json_2.12/1.3.5/1ee2fe69970ae12fac6cf7dfefdfb4b41699714/spray-json_2.12-1.3.5.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-http-core_2.12/10.1.7/f6d11d6c6789e764826dad8bfd630dc11682cf96/akka-http-core_2.12-10.1.7.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-protobuf_2.12/2.5.22/1c794a7c6d4fc5d5b6c45e59484a450835bdc1a2/akka-protobuf_2.12-2.5.22.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-parsing_2.12/10.1.7/513c0f1772213e3e8ed4f18d35a4843398e961c7/akka-parsing_2.12-10.1.7.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/com.typesafe/ssl-config-core_2.12/0.3.7/78a93560e191dcb6bd7217be643c5d14ee1ab0ba/ssl-config-core_2.12-0.3.7.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-parser-combinators_2.12/1.1.1/29b4158f9ddcc22d1c81363fd61a8bef046f06b9/scala-parser-combinators_2.12-1.1.1.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.8/36b234834d8f842cdde963c8591efae6cf413e3f/scala-library-2.12.8.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.3.3/4b68c2d5d0403bb4015520fcfabc88d0cbc4d117/config-1.3.3.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.31/e652770b6416c6d85934086899ffed3eccd35813/kotlin-stdlib-jdk7-1.3.31.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.31/11289d20fd95ae219333f3456072be9f081c30cc/kotlin-stdlib-1.3.31.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/io.netty/netty/3.10.6.Final/18ed04a0e502896552854926e908509db2987a00/netty-3.10.6.Final.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/io.aeron/aeron-driver/1.15.1/fc17bd81d7de443c1ce30476877bce93649b7fc1/aeron-driver-1.15.1.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/io.aeron/aeron-client/1.15.1/a608caaa33697b6914b2593f4d4c20f91f2c179b/aeron-client-1.15.1.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.31/20c34a04ea25cb1ef0139598bd67c764562cb170/kotlin-stdlib-common-1.3.31.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.2/323964c36556eb0e6209f65c1cef72b53b461ab8/reactive-streams-1.0.2.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/org.agrona/agrona/0.9.31/56014757f084ead33d6a29f8dbad9b4cb765bdf/agrona-0.9.31.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/org.lmdbjava/lmdbjava/0.6.1/26dc554a4b16f8e540d477766a67a200f76b4860/lmdbjava-0.6.1.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-ffi/2.1.7/31a7391a212069303935a1df29566b7372d3ef9f/jnr-ffi-2.1.7.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-constants/0.9.9/33f23994e09aeb49880aa01e12e8e9eff058c14c/jnr-constants-0.9.9.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/com.github.jnr/jffi/1.2.16/5c1149dfcc9a16f85c8d9b8797f03806667cb9f1/jffi-1.2.16.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/5.0.3/a7111830132c7f87d08fe48cb0ca07630f8cb91c/asm-commons-5.0.3.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/5.0.3/c7126aded0e8e13fed5f913559a0dd7b770a10f3/asm-analysis-5.0.3.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/5.0.3/1512e5571325854b05fb1efce1db75fcced54389/asm-util-5.0.3.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/5.0.3/287749b48ba7162fb67c93a026d690b29f410bed/asm-tree-5.0.3.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.3/dcc2193db20e19e1feca8b1240dbbc4e190824fa/asm-5.0.3.jar;C:/Users/zojovano/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-x86asm/1.0.2/6936bbd6c5b235665d87bd450f5e13b52d4b48/jnr-x86asm-1.0.2.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="akka-sample-cluster-kubernetes-dns-kotlin" />
+          <option name="jvmTarget" value="1.8" />
+          <option name="addCompilerBuiltIns" value="true" />
+          <option name="loadBuiltInsFromDependencies" value="true" />
+          <option name="languageVersion" value="1.3" />
+          <option name="apiVersion" value="1.3" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../../akka-sample-cluster-kubernetes-dns-kotlin/build/classes/java/main" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../akka-sample-cluster-kubernetes-dns-kotlin/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../akka-sample-cluster-kubernetes-dns-kotlin/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../akka-sample-cluster-kubernetes-dns-kotlin/src/main/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../akka-sample-cluster-kubernetes-dns-kotlin/src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: com.lightbend.akka.management:akka-management-cluster-bootstrap_2.12:1.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.lightbend.akka.management:akka-management-cluster-http_2.12:1.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.lightbend.akka.management:akka-management_2.12:1.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.typesafe.akka:akka-cluster-sharding_2.12:2.5.21" level="project" />
+    <orderEntry type="library" name="Gradle: com.typesafe.akka:akka-distributed-data_2.12:2.5.21" level="project" />
+    <orderEntry type="library" name="Gradle: com.typesafe.akka:akka-cluster-tools_2.12:2.5.21" level="project" />
+    <orderEntry type="library" name="Gradle: com.typesafe.akka:akka-cluster_2.12:2.5.22" level="project" />
+    <orderEntry type="library" name="Gradle: com.typesafe.akka:akka-remote_2.12:2.5.22" level="project" />
+    <orderEntry type="library" name="Gradle: com.typesafe.akka:akka-discovery_2.12:2.5.21" level="project" />
+    <orderEntry type="library" name="Gradle: com.typesafe.akka:akka-stream_2.12:2.5.22" level="project" />
+    <orderEntry type="library" name="Gradle: com.typesafe.akka:akka-persistence_2.12:2.5.21" level="project" />
+    <orderEntry type="library" name="Gradle: com.typesafe.akka:akka-actor_2.12:2.5.22" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.31" level="project" />
+    <orderEntry type="library" name="Gradle: org.scala-lang.modules:scala-java8-compat_2.12:0.8.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.typesafe.akka:akka-http-spray-json_2.12:10.1.7" level="project" />
+    <orderEntry type="library" name="Gradle: com.typesafe.akka:akka-http_2.12:10.1.7" level="project" />
+    <orderEntry type="library" name="Gradle: io.spray:spray-json_2.12:1.3.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.typesafe.akka:akka-http-core_2.12:10.1.7" level="project" />
+    <orderEntry type="library" name="Gradle: com.typesafe.akka:akka-protobuf_2.12:2.5.22" level="project" />
+    <orderEntry type="library" name="Gradle: com.typesafe.akka:akka-parsing_2.12:10.1.7" level="project" />
+    <orderEntry type="library" name="Gradle: com.typesafe:ssl-config-core_2.12:0.3.7" level="project" />
+    <orderEntry type="library" name="Gradle: org.scala-lang.modules:scala-parser-combinators_2.12:1.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.scala-lang:scala-library:2.12.8" level="project" />
+    <orderEntry type="library" name="Gradle: com.typesafe:config:1.3.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.31" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.3.31" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty:3.10.6.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.aeron:aeron-driver:1.15.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.aeron:aeron-client:1.15.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.31" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.reactivestreams:reactive-streams:1.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.agrona:agrona:0.9.31" level="project" />
+    <orderEntry type="library" name="Gradle: org.lmdbjava:lmdbjava:0.6.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.jnr:jnr-ffi:2.1.7" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.jnr:jnr-constants:0.9.9" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.jnr:jffi:1.2.16" level="project" />
+    <orderEntry type="library" name="Gradle: org.ow2.asm:asm-commons:5.0.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.ow2.asm:asm-analysis:5.0.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.ow2.asm:asm-util:5.0.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.github.jnr:jffi:native:1.2.16" level="project" />
+    <orderEntry type="library" name="Gradle: org.ow2.asm:asm-tree:5.0.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.ow2.asm:asm:5.0.3" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.jnr:jnr-x86asm:1.0.2" level="project" />
+  </component>
+</module>

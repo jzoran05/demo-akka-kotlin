@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-sample-cluster-kubernetes-dns-kotlin/akka-sample-cluster-kubernetes-dns-kotlin.main.akka-sample-cluster-kubernetes-dns-kotlin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-sample-cluster-kubernetes-dns-kotlin/akka-sample-cluster-kubernetes-dns-kotlin.main.akka-sample-cluster-kubernetes-dns-kotlin.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-sample-cluster-kubernetes-dns-kotlin/akka-sample-cluster-kubernetes-dns-kotlin.main.akka-sample-cluster-kubernetes-dns-kotlin.test.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-sample-cluster-kubernetes-dns-kotlin/akka-sample-cluster-kubernetes-dns-kotlin.main.akka-sample-cluster-kubernetes-dns-kotlin.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-kotlin-sample/demo.akka.kotlin.main.akka-kotlin-sample.main.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-kotlin-sample/demo.akka.kotlin.main.akka-kotlin-sample.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-kotlin-sample/demo.akka.kotlin.main.akka-kotlin-sample.test.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-kotlin-sample/demo.akka.kotlin.main.akka-kotlin-sample.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-sample-cluster-kubernetes-kotlin/demo.akka.kotlin.main.akka-sample-cluster-kubernetes-kotlin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-sample-cluster-kubernetes-kotlin/demo.akka.kotlin.main.akka-sample-cluster-kubernetes-kotlin.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-sample-cluster-kubernetes-kotlin/demo.akka.kotlin.main.akka-sample-cluster-kubernetes-kotlin.test.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-sample-cluster-kubernetes-kotlin/demo.akka.kotlin.main.akka-sample-cluster-kubernetes-kotlin.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-samples-cluster-kotlin/demo.akka.main.akka-samples-cluster-kotlin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-samples-cluster-kotlin/demo.akka.main.akka-samples-cluster-kotlin.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-samples-cluster-kotlin/demo.akka.main.akka-samples-cluster-kotlin.test.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-samples-cluster-kotlin/demo.akka.main.akka-samples-cluster-kotlin.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main.iml" filepath="$PROJECT_DIR$/.idea/modules/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-kotlin-sample/main.akka-kotlin-sample.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-kotlin-sample/main.akka-kotlin-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-kotlin-sample/main.akka-kotlin-sample.main.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-kotlin-sample/main.akka-kotlin-sample.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-kotlin-sample/main.akka-kotlin-sample.test.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-kotlin-sample/main.akka-kotlin-sample.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-sample-cluster-kubernetes-dns-kotlin/main.akka-sample-cluster-kubernetes-dns-kotlin.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-sample-cluster-kubernetes-dns-kotlin/main.akka-sample-cluster-kubernetes-dns-kotlin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-sample-cluster-kubernetes-dns-kotlin/main.akka-sample-cluster-kubernetes-dns-kotlin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-sample-cluster-kubernetes-dns-kotlin/main.akka-sample-cluster-kubernetes-dns-kotlin.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-sample-cluster-kubernetes-dns-kotlin/main.akka-sample-cluster-kubernetes-dns-kotlin.test.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-sample-cluster-kubernetes-dns-kotlin/main.akka-sample-cluster-kubernetes-dns-kotlin.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-sample-cluster-kubernetes-kotlin/main.akka-sample-cluster-kubernetes-kotlin.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-sample-cluster-kubernetes-kotlin/main.akka-sample-cluster-kubernetes-kotlin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-sample-cluster-kubernetes-kotlin/main.akka-sample-cluster-kubernetes-kotlin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-sample-cluster-kubernetes-kotlin/main.akka-sample-cluster-kubernetes-kotlin.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-sample-cluster-kubernetes-kotlin/main.akka-sample-cluster-kubernetes-kotlin.test.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-sample-cluster-kubernetes-kotlin/main.akka-sample-cluster-kubernetes-kotlin.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-samples-cluster-kotlin/main.akka-samples-cluster-kotlin.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-samples-cluster-kotlin/main.akka-samples-cluster-kotlin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-samples-cluster-kotlin/main.akka-samples-cluster-kotlin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-samples-cluster-kotlin/main.akka-samples-cluster-kotlin.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-samples-cluster-kotlin/main.akka-samples-cluster-kotlin.test.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-samples-cluster-kotlin/main.akka-samples-cluster-kotlin.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sample-actor/main.sample-actor.iml" filepath="$PROJECT_DIR$/.idea/modules/sample-actor/main.sample-actor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sample-actor/main.sample-actor.main.iml" filepath="$PROJECT_DIR$/.idea/modules/sample-actor/main.sample-actor.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sample-actor/main.sample-actor.test.iml" filepath="$PROJECT_DIR$/.idea/modules/sample-actor/main.sample-actor.test.iml" />
+    </modules>
+  </component>
+</project>

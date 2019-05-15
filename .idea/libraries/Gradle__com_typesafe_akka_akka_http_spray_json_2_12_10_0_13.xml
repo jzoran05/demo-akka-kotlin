@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.typesafe.akka:akka-http-spray-json_2.12:10.0.13">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-http-spray-json_2.12/10.0.13/af77cf2d2038f70215ed639a851e99526d4242c0/akka-http-spray-json_2.12-10.0.13.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-http-spray-json_2.12/10.0.13/3442c90004b077a366f11ab4981ffe31c04d5eb2/akka-http-spray-json_2.12-10.0.13-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
