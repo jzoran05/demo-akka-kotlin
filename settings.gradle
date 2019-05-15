@@ -3,6 +3,7 @@ include 'akka-sample-cluster-kubernetes-kotlin'
 include 'akka-sample-cluster-kubernetes-dns-kotlin'
 include 'akka-samples-cluster-kotlin'
 include 'akka-kotlin-sample'
+//include 'akka-streams-sample'
 
 
 

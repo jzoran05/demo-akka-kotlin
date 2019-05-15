@@ -5,6 +5,8 @@ Sending messages to actors running on nodes in the cluster
 Cluster aware routers
 Cluster metrics
 
+NOTE: This is a cluster without the Cluster Bootstrap feature
+
 # A Simple Cluster Example
 Open application.conf
 
