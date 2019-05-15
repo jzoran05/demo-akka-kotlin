@@ -2,106 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="283a052b-46e3-46cc-a01c-a39a11e73513" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_github_jnr_jffi_1_2_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_github_jnr_jffi_native_1_2_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_github_jnr_jnr_constants_0_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_github_jnr_jnr_ffi_2_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_github_jnr_jnr_x86asm_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_lightbend_akka_discovery_akka_discovery_2_12_0_20_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_lightbend_akka_discovery_akka_discovery_kubernetes_api_2_12_0_20_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_lightbend_akka_management_akka_management_2_12_0_20_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_lightbend_akka_management_akka_management_2_12_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_lightbend_akka_management_akka_management_cluster_bootstrap_2_12_0_20_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_lightbend_akka_management_akka_management_cluster_bootstrap_2_12_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_lightbend_akka_management_akka_management_cluster_http_2_12_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_typesafe_akka_akka_actor_2_12_2_5_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_typesafe_akka_akka_cluster_2_12_2_5_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_typesafe_akka_akka_cluster_metrics_2_12_2_5_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_typesafe_akka_akka_cluster_sharding_2_12_2_5_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_typesafe_akka_akka_cluster_tools_2_12_2_5_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_typesafe_akka_akka_discovery_2_12_2_5_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_typesafe_akka_akka_distributed_data_2_12_2_5_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_typesafe_akka_akka_http_2_12_10_0_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_typesafe_akka_akka_http_2_12_10_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_typesafe_akka_akka_http_core_2_12_10_0_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_typesafe_akka_akka_http_core_2_12_10_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_typesafe_akka_akka_http_spray_json_2_12_10_0_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_typesafe_akka_akka_http_spray_json_2_12_10_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_typesafe_akka_akka_parsing_2_12_10_0_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_typesafe_akka_akka_parsing_2_12_10_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_typesafe_akka_akka_persistence_2_12_2_5_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_typesafe_akka_akka_protobuf_2_12_2_5_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_typesafe_akka_akka_remote_2_12_2_5_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_typesafe_akka_akka_slf4j_2_12_2_5_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_typesafe_akka_akka_stream_2_12_2_5_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_typesafe_akka_akka_testkit_2_12_2_5_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_typesafe_config_1_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_typesafe_ssl_config_core_2_12_0_3_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__io_aeron_aeron_client_1_15_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__io_aeron_aeron_driver_1_15_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__io_netty_netty_3_10_6_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__io_spray_spray_json_2_12_1_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__io_spray_spray_json_2_12_1_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_agrona_agrona_0_9_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_3_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_params_5_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_params_5_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_lmdbjava_lmdbjava_0_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_opentest4j_opentest4j_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_opentest4j_opentest4j_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_ow2_asm_asm_5_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_ow2_asm_asm_analysis_5_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_ow2_asm_asm_commons_5_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_ow2_asm_asm_tree_5_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_ow2_asm_asm_util_5_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_reactivestreams_reactive_streams_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_scala_lang_modules_scala_java8_compat_2_12_0_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_scala_lang_modules_scala_parser_combinators_2_12_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_scala_lang_scala_library_2_12_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules/akka-kotlin-sample/main.akka-kotlin-sample.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules/akka-kotlin-sample/main.akka-kotlin-sample.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules/akka-kotlin-sample/main.akka-kotlin-sample.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules/akka-sample-cluster-kubernetes-dns-kotlin/main.akka-sample-cluster-kubernetes-dns-kotlin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules/akka-sample-cluster-kubernetes-dns-kotlin/main.akka-sample-cluster-kubernetes-dns-kotlin.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules/akka-sample-cluster-kubernetes-dns-kotlin/main.akka-sample-cluster-kubernetes-dns-kotlin.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules/akka-sample-cluster-kubernetes-kotlin/main.akka-sample-cluster-kubernetes-kotlin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules/akka-sample-cluster-kubernetes-kotlin/main.akka-sample-cluster-kubernetes-kotlin.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules/akka-sample-cluster-kubernetes-kotlin/main.akka-sample-cluster-kubernetes-kotlin.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules/akka-samples-cluster-kotlin/main.akka-samples-cluster-kotlin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules/akka-samples-cluster-kotlin/main.akka-samples-cluster-kotlin.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules/akka-samples-cluster-kotlin/main.akka-samples-cluster-kotlin.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules/akka-streams-sample.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules/main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules/sample-actor/main.sample-actor.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules/sample-actor/main.sample-actor.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules/sample-actor/main.sample-actor.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/app.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/TestContainer-KafkaTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../akka-samples-cluster-kotlin/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../akka-samples-cluster-kotlin/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../settings.gradle" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -143,12 +44,6 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="akka-streams-sample" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="akka-streams-sample" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
@@ -181,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
-              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -431,19 +326,17 @@
       <option name="project" value="LOCAL" />
       <updated>1557911365343</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="adding JUnit test with testcontainers.org support">
+      <created>1557943286805</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557943286805</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestContainerKafka_testSomeActor - 2019.05.15 at 14h 02m 17s.xml">
-      <configuration name="TestContainerKafka.testSomeActor" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestContainerKafka_testSomeActor - 2019.05.15 at 14h 02m 30s.xml">
-      <configuration name="TestContainerKafka.testSomeActor" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestContainerKafka_testSomeActor - 2019.05.15 at 14h 04m 50s.xml">
-      <configuration name="TestContainerKafka.testSomeActor" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="TestContainerKafka_testSomeActor - 2019.05.15 at 14h 05m 46s.xml">
       <configuration name="TestContainerKafka.testSomeActor" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -463,6 +356,15 @@
       <configuration name="akka-streams-sample [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
     <history-entry file="akka-streams-sample_[test] - 2019.05.15 at 19h 59m 21s.xml">
+      <configuration name="akka-streams-sample [test]" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="akka-streams-sample_[test] - 2019.05.15 at 20h 08m 03s.xml">
+      <configuration name="akka-streams-sample [test]" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="akka-streams-sample_[test] - 2019.05.15 at 20h 14m 59s.xml">
+      <configuration name="akka-streams-sample [test]" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="akka-streams-sample_[test] - 2019.05.15 at 20h 15m 23s.xml">
       <configuration name="akka-streams-sample [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
@@ -509,7 +411,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding akka streams sample..." />
-    <option name="LAST_COMMIT_MESSAGE" value="adding akka streams sample..." />
+    <MESSAGE value="adding JUnit test with testcontainers.org support" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding JUnit test with testcontainers.org support" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/settings.gradle">
@@ -545,7 +448,7 @@
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
         </state>
       </provider>
     </entry>
