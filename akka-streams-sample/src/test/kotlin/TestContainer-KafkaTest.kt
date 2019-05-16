@@ -24,8 +24,8 @@ class TestContainerKafka  {
 
         assertTrue(servers.isNullOrBlank() == false)
         val running = kafka.isRunning
-
         assertTrue(running)
+        
     }
 
 /*

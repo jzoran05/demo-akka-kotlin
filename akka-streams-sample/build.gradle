@@ -10,14 +10,28 @@ repositories {
 }
 
 def jupiterVersion = '5.4.2'
+def akkaVersion = '2.5.22'
 
 dependencies {
+    
+    
+    // Junit5
     testCompile group: 'org.assertj', name: 'assertj-core', version: '3.11.1'
     testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: jupiterVersion
     testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-params', version: jupiterVersion
     testRuntime group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: jupiterVersion
+    
+    // testcontainers.org
     testCompile group: 'org.testcontainers', name: 'junit-jupiter', version: '1.11.2'
     testCompile group: 'org.testcontainers', name: 'kafka', version: '1.11.2'
+
+    implementation group: 'com.typesafe.akka', name: 'akka-stream_2.12', version: akkaVersion
+    compile group: 'com.typesafe.akka', name: 'akka-actor_2.12', version: akkaVersion
+    //implementation group: 'com.lightbend.akka', name: 'alpakka_2.12', version: '1.0'
+   
+    // Alpakka MQTT connector
+    compile group: 'com.lightbend.akka', name: 'akka-stream-alpakka-mqtt-streaming_2.12', version: '1.0.0'
+    
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
 }
 
