@@ -6,6 +6,11 @@ import java.nio.file.Paths
 import akka.stream.IOResult
 import akka.util.ByteString
 import java.util.concurrent.CompletionStage
+import akka.NotUsed
+import java.math.BigInteger
+import akka.japi.JAPI.seq
+import java.util.concurrent.TimeUnit
+import akka.stream.javadsl.FramingTruncation
 
 
 
@@ -22,13 +27,15 @@ class AkkaStreamFileInOut {
         val sink = FileIO.toPath(Paths.get("sinkFile.txt"))
 
 
-        val result = source.map { num -> num.toString() + "\n" }
+        val lines = source
+            .via(Framing.delimiter(ByteString.fromString("\r\n"), 100, FramingTruncation.ALLOW))
+            .map({ b -> b.utf8String() })
 
-        println("Printing source...")
-        result.runForeach({ i -> println(i) }, materializer)
+        lines.runForeach( { i -> println(i)}, materializer)
 
         val runnableGraph = source.to(sink)
 
+        //println("Running graphs")
         val res = runnableGraph.run(materializer)
 
 
