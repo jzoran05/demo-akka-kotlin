@@ -3,18 +3,34 @@ import akka.actor.PathUtils
 import akka.stream.ActorMaterializer
 import akka.stream.javadsl.*
 import java.nio.file.Paths
+import akka.stream.IOResult
+import akka.util.ByteString
+import java.util.concurrent.CompletionStage
+
+
 
 
 class AkkaStreamFileInOut {
+
+
     fun CopyToFile() {
-        val source = FileIO.fromPath(Paths.get("akkastreamfilein.txt"))
-        val sink = FileIO.toPath(Paths.get("sinkFile.txt"))
-        val runnableGraph = source.to(sink)
 
         val system = ActorSystem.create()
         val materializer = ActorMaterializer.create(system)
 
-        runnableGraph.run(materializer)
+        val source = FileIO.fromPath(Paths.get("C:\\Source\\Demo\\demo-akka-kotlin\\akka-streams-sample\\src\\main\\resources\\akkastreamfilein.txt"))
+        val sink = FileIO.toPath(Paths.get("sinkFile.txt"))
+
+
+        val result = source.map { num -> num.toString() + "\n" }
+
+        println("Printing source...")
+        result.runForeach({ i -> println(i) }, materializer)
+
+        val runnableGraph = source.to(sink)
+
+        val res = runnableGraph.run(materializer)
+
 
     }
 

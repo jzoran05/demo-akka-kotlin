@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="283a052b-46e3-46cc-a01c-a39a11e73513" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/AkkaStreamFileInOut.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/AkkaStreamIntRange.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/AlpakkaKafkaConsumer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/AlpakkaMqttConsumer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/akkastreamfilein.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules/sample-actor/main.sample-actor.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules/sample-actor/main.sample-actor.test.iml" afterDir="false" />
+    <list default="true" id="283a052b-46e3-46cc-a01c-a39a11e73513" name="Default Changelist" comment="adding some Akka Stream code...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/TestContainer-KafkaTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/TestContainer-KafkaTest.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -115,29 +106,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/AkkaStreamFileInOut.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+            <state relative-caret-position="396">
+              <caret line="18" column="59" lean-forward="true" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
               <folding>
-                <element signature="e#0#150#0" expanded="true" />
+                <element signature="e#0#222#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-stream_2.12/2.5.22/59187dd4e406ed6c6a20b9224465c1c525583694/akka-stream_2.12-2.5.22-sources.jar!/akka/stream/javadsl/Flow.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="3446" column="5" lean-forward="true" selection-start-line="3446" selection-start-column="5" selection-end-line="3446" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/akkastreamfilein.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -145,20 +118,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/AkkaStreamIntRange.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="63" column="36" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
+            <state relative-caret-position="242">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="e#0#261#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.31/958c401b129f64de74af4b11a0894693edfa168d/kotlin-stdlib-common-1.3.31-sources.jar!/kotlin/util/Tuples.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -215,17 +179,17 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/AlpakkaKafkaConsumer.kt" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/kotlin/AlpakkaMqttConsumer.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/AkkaStreamIntRange.kt" />
         <option value="$PROJECT_DIR$/src/main/resources/akkastreamfilein.txt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/AkkaStreamIntRange.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/AkkaStreamFileInOut.kt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-16" />
-    <option name="y" value="-16" />
-    <option name="width" value="5152" />
-    <option name="height" value="2832" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="2576" />
+    <option name="height" value="1416" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -440,7 +404,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557944300333</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adding some Akka Stream code...">
+      <created>1558041893416</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1558041893416</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -476,10 +447,9 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1633" height="1053" extended-state="6" />
-    <editor active="true" />
+    <frame x="-13" y="-13" width="1633" height="1053" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25777778" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25777778" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -490,7 +460,7 @@
       <window_info id="Learn" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.54180604" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44816053" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -519,7 +489,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding akka streams sample..." />
     <MESSAGE value="adding JUnit test with testcontainers.org support" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding JUnit test with testcontainers.org support" />
+    <MESSAGE value="adding some Akka Stream code..." />
+    <option name="LAST_COMMIT_MESSAGE" value="adding some Akka Stream code..." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/settings.gradle">
@@ -595,23 +566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/akkastreamfilein.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/AkkaStreamIntRange.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="63" column="36" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#261#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-stream_2.12/2.5.22/59187dd4e406ed6c6a20b9224465c1c525583694/akka-stream_2.12-2.5.22-sources.jar!/akka/stream/javadsl/Flow.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -619,12 +573,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-stream_2.12/2.5.22/59187dd4e406ed6c6a20b9224465c1c525583694/akka-stream_2.12-2.5.22-sources.jar!/akka/stream/javadsl/Source.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="618" column="6" selection-start-line="618" selection-start-column="6" selection-end-line="618" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sinkFile.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/akkastreamfilein.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/AkkaStreamIntRange.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#261#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/AkkaStreamFileInOut.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        <state relative-caret-position="396">
+          <caret line="18" column="59" lean-forward="true" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
           <folding>
-            <element signature="e#0#150#0" expanded="true" />
+            <element signature="e#0#222#0" expanded="true" />
           </folding>
         </state>
       </provider>
