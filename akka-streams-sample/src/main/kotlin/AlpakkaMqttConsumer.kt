@@ -1,4 +1,4 @@
-/*
+
 
 import akka.Done
 import akka.NotUsed
@@ -50,7 +50,7 @@ import java.util.stream.Collectors
 
 class AlpakkaMqttConsumer {
 
-    private val TIMEOUT_SECONDS = 5
+    private val TIMEOUT_SECONDS = 5L
 
     private var system: ActorSystem? = null
     private var materializer: Materializer? = null
@@ -61,49 +61,44 @@ class AlpakkaMqttConsumer {
         return Pair.create(system, materializer)
     }
 
-  fun EstablishClientBidirectionalConnectionAndSubscribeToATopic() {
-    val clientId = "source-spec/flow"
-    val topic = "source-spec/topic1"
+    fun establishClientBidirectionalConnectionAndSubscribeToATopic() {
+        val clientId = "source-spec/flow"
+        val topic = "source-spec/topic1"
 
-    // #create-streaming-flow
-    var settings = MqttSessionSettings.create()
-    var session = ActorMqttClientSession.create(settings, materializer, system)
-    var connection: Flow<ByteString, ByteString, CompletionStage<Tcp.OutgoingConnection>> = Tcp.get(system).outgoingConnection("localhost", 1883)
+        // #create-streaming-flow
+        var settings = MqttSessionSettings.create()
+        var session = ActorMqttClientSession.create(settings, materializer, system)
+        var connection = Tcp.get(system).outgoingConnection("localhost", 1883)
+        val run = StreamsJavaDslHelper.Run(session, system, materializer, connection)
 
+        var commands: SourceQueueWithComplete<Command<Any>> = run.first()
+        commands.offer(Command(Connect(clientId, ConnectFlags.CleanSession())))
+        commands.offer(Command(Subscribe(topic)))
 
-    var mqttFlow = Mqtt // type: Flow<Command<Object>, DecodeErrorOrEvent<Object>, NotUsed>
-        .clientSessionFlow<Any?>(session, ByteString.fromString("1")) // added <Any?> to prevent Kotlin inference error but sure if this is going to work...
-        .join(connection)
-    // #create-streaming-flow
+        val intOption = ControlPacketFlags.RETAIN() or ControlPacketFlags.QoSAtLeastOnceDelivery()
+        val publish = Publish(intOption, topic, ByteString.fromString("ohi"))
+        val command = Command<Any>(publish)
+        session.tell(command)
+        // #run-streaming-flow
 
-    // #run-streaming-flow
-    var run = // Pair<SourceQueueWithComplete<Command<Object>>, CompletionStage<Publish>>
-        Source.queue<Any?>(3, OverflowStrategy.fail())
-            .via(mqttFlow)
-            //.collect { when { Right(Event(p: Publish, _)) => p } }
-            .collect {  }
-            .toMat(Sink.head<Any?>(), Keep.both<Any?, Any?>())
-            .run(materializer)
+        var event = run.second()
+        var publishEvent = event.toCompletableFuture().get(TIMEOUT_SECONDS, TimeUnit.SECONDS)
 
-    var commands: SourceQueueWithComplete<Command<Any>> = run.first()
-    commands.offer(Command(Connect(clientId, ConnectFlags.CleanSession())))
-    commands.offer(Command(Subscribe(topic)))
-    session.tell(Command<Any?>(Publish(ControlPacketFlags.RETAIN() | ControlPacketFlags.QoSAtLeastOnceDelivery(), topic, ByteString.fromString("ohi"))))
-    // #run-streaming-flow
+        // #run-streaming-flow
 
-    CompletionStage<Publish> event = run.second();
-    Publish publishEvent = event.toCompletableFuture().get(TIMEOUT_SECONDS, TimeUnit.SECONDS);
-    //assertEquals(publishEvent.topicName(), topic);
-    //assertEquals(publishEvent.payload(), ByteString.fromString("ohi"));
-
-    // #run-streaming-flow
-
-    // for shutting down properly
-    commands.complete();
-    commands.watchCompletion().thenAccept(done -> session.shutdown());
+        // for shutting down properly
+        commands.complete()
+        commands.watchCompletion().thenAccept { session.shutdown() }
     // #run-streaming-flow
   }
 
+    companion object {
+
+        @JvmStatic
+        fun main(args: Array<String>) {
+            AlpakkaMqttConsumer().establishClientBidirectionalConnectionAndSubscribeToATopic()
+        }
+    }
+
 }
 
- */

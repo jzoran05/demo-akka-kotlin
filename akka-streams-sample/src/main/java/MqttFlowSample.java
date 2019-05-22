@@ -3,11 +3,7 @@ import akka.NotUsed;
 import akka.actor.ActorSystem;
 import akka.japi.JavaPartialFunction;
 import akka.japi.Pair;
-import akka.stream.ActorMaterializer;
-import akka.stream.KillSwitches;
-import akka.stream.Materializer;
-import akka.stream.OverflowStrategy;
-import akka.stream.UniqueKillSwitch;
+import akka.stream.*;
 import akka.stream.alpakka.mqtt.streaming.Command;
 import akka.stream.alpakka.mqtt.streaming.ConnAck;
 import akka.stream.alpakka.mqtt.streaming.ConnAckFlags;
@@ -38,6 +34,9 @@ import akka.stream.javadsl.BroadcastHub;
 import akka.util.ByteString;
 import scala.Tuple2;
 import scala.collection.JavaConverters;
+
+import javax.net.ssl.SSLContext;
+import java.security.NoSuchAlgorithmException;
 import java.util.Collection;
 import java.util.List;
 import java.util.Optional;
@@ -51,8 +50,10 @@ import java.util.stream.Collectors;
 
 public class MqttFlowSample {
 
-    public static void main(String[] arg ) {
+    public static void main(String[] arg )
+            throws InterruptedException, ExecutionException, TimeoutException, java.security.NoSuchAlgorithmException {
         setup();
+        MqttFlowSample.establishClientBidirectionalConnectionAndSubscribeToATopic();
     }
 
     private static int TIMEOUT_SECONDS = 5;
@@ -73,8 +74,8 @@ public class MqttFlowSample {
     }
 
 
-    public void EstablishClientBidirectionalConnectionAndSubscribeToATopic()
-            throws InterruptedException, ExecutionException, TimeoutException {
+    public static void establishClientBidirectionalConnectionAndSubscribeToATopic()
+            throws InterruptedException, ExecutionException, TimeoutException, java.security.NoSuchAlgorithmException {
         String clientId = "source-spec/flow";
         String topic = "source-spec/topic1";
 
@@ -82,7 +83,12 @@ public class MqttFlowSample {
         MqttSessionSettings settings = MqttSessionSettings.create();
         MqttClientSession session = ActorMqttClientSession.create(settings, materializer, system);
 
-        Flow<ByteString, ByteString, CompletionStage<Tcp.OutgoingConnection>> connection = Tcp.get(system).outgoingConnection("localhost", 1883);
+        SSLContext sslContext = SSLContext.getDefault();
+        TLSProtocol.NegotiateNewSession negotiateNewSession = TLSProtocol.NegotiateNewSession.withDefaults();
+
+
+        //Flow<ByteString, ByteString, CompletionStage<Tcp.OutgoingConnection>> connection = Tcp.get(system).outgoingConnection("localhost", 1883);
+        Flow<ByteString, ByteString, CompletionStage<Tcp.OutgoingConnection>> connection = Tcp.get(system).outgoingTlsConnection("host", 8833, sslContext, negotiateNewSession);
 
         Flow<Command<Object>, DecodeErrorOrEvent<Object>, NotUsed> mqttFlow = Mqtt.clientSessionFlow(session, ByteString.fromString("1")).join(connection);
         // #create-streaming-flow
