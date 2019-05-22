@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="283a052b-46e3-46cc-a01c-a39a11e73513" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/StreamsJavaDslHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/AkkaStreamKotlinFlowInterop.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MqttFlowSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MqttFlowSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/AlpakkaMqttConsumer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/AlpakkaMqttConsumer.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -88,8 +83,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="660">
+              <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -459,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558432743886</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="adding some Akka Stream code...">
+      <created>1558547163814</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1558547163814</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -530,7 +532,7 @@
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Gradle" order="6" visible="true" weight="0.32949126" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.32949126" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
@@ -708,8 +710,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="660">
+          <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
         </state>
       </provider>
     </entry>
