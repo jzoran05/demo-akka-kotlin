@@ -11,13 +11,23 @@ repositories {
     mavenCentral()
 }
 
+def akkaVersion = '2.5.22'
+def akkaManagementVersion = '1.0.1'
+
 dependencies {
-    compile group: 'com.typesafe.akka', name: 'akka-actor_2.12', version: '2.5.22'
-    compile group: 'com.typesafe.akka', name: 'akka-cluster_2.12', version: '2.5.22'
-    compile group: 'com.lightbend.akka.management', name: 'akka-management-cluster-bootstrap_2.12', version: '0.20.0'
-    compile group: 'com.typesafe.akka', name: 'akka-slf4j_2.12', version: '2.5.22'
+    compile group: 'com.typesafe.akka', name: 'akka-actor_2.12', version: akkaVersion
+    compile group: 'com.typesafe.akka', name: 'akka-cluster_2.12', version: akkaVersion
+    compile group: 'com.typesafe.akka', name: 'akka-slf4j_2.12', version: akkaVersion
+    compile group: 'com.typesafe.akka', name: 'akka-discovery_2.12', version: akkaVersion
+    
+    //compile group: 'com.lightbend.akka.management', name: 'akka-management-cluster-bootstrap_2.12', version: '0.20.0'
+    //compile group: 'com.lightbend.akka.discovery', name: 'akka-discovery-kubernetes-api_2.12', version: '0.20.0'
+    compile group: 'com.lightbend.akka.management', name: 'akka-management_2.12', version: akkaManagementVersion
+    compile group: 'com.lightbend.akka.management', name: 'akka-management-cluster-bootstrap_2.12', version: akkaManagementVersion
+    compile group: 'com.lightbend.akka.management', name: 'akka-management-cluster-http_2.12', version: akkaManagementVersion
+    compile group: 'com.lightbend.akka.discovery', name: 'akka-discovery-kubernetes-api_2.12', version: akkaManagementVersion
+    
     compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
-    compile("com.lightbend.akka.discovery:akka-discovery-kubernetes-api_2.12:0.20.0")
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
 }
 
@@ -32,7 +42,7 @@ jar {
 
 docker {
     javaApplication {
-        baseImage = 'openjdk:8-jdk-alpine'
+        baseImage = 'openjdk:8-jdk-alpine-curl'
         ports = [8080, 8558, 2552]
         tag = 'akka-kubernetes-sample-1.0'
     }
