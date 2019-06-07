@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.lightbend.akka.management:akka-management_2.12:1.0.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.lightbend.akka.management/akka-management_2.12/1.0.1/7ee949d3242e756cd623ba835b21db90111992da/akka-management_2.12-1.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.lightbend.akka.management/akka-management_2.12/1.0.1/aebb8a67ce18284112f877bbc313c15132c6bf01/akka-management_2.12-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

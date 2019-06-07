@@ -47,3 +47,10 @@ W
 'src/main/java/StreamsJavaDslHelper.java,d\f\dfaa330ef2f61687f5f3b49d06192cac7cd49a92
 `
 0src/main/kotlin/AkkaStreamAzureEventHubSource.kt,2\f\2fe614be5f6282c296fc0574a84d8ceed5a5af49
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+X
+(src/main/kotlin/AkkaStreamPrintlnSink.kt,9\a\9a15a61be89c8ef83fc22617d66dec02509d2f7d
+`
+0src/main/kotlin/AkkaStreamSourceAzureEventHub.kt,7\c\7c730c94d701e304ffb27618d668b6aba0a49d5e

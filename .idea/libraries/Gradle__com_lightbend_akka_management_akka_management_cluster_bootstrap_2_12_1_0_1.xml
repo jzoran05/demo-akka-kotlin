@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.lightbend.akka.management:akka-management-cluster-bootstrap_2.12:1.0.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.lightbend.akka.management/akka-management-cluster-bootstrap_2.12/1.0.1/46c869f48d66503b3fa0dddd456d9a4dfdbf127f/akka-management-cluster-bootstrap_2.12-1.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.lightbend.akka.management/akka-management-cluster-bootstrap_2.12/1.0.1/dbf4caaaf03b29848938fdbf92881e8675eacf6e/akka-management-cluster-bootstrap_2.12-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
